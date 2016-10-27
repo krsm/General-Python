@@ -13,7 +13,6 @@ class Warrior(object):
     #number of warriors
     num_of_warriors = 0
     
-    
     def __init__(self,posx,posy):
         self.posx = posx
         self.posy = posy

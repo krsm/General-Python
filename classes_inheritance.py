@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Simply study relate do classes inheritance - creating subclasses
+Simple study related do classes inheritance - creating subclasses
 
 """
 

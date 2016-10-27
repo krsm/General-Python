@@ -15,8 +15,6 @@ def outer_function():
 
     return inner_function()
 
-# second example
-
 
 if __name__ == "__main__":
 

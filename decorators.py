@@ -29,7 +29,9 @@ def tobedecorated():
     print("Executing tobedecorated function")
 
 if __name__ == "__main__":
+    
+    pass
     #first example
-    print(addone(5))
+    #print(addone(5))
     #second example
-    tobedecorated()
+    #tobedecorated()

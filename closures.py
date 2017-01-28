@@ -4,6 +4,7 @@ simple study of closures
 
 """
 
+
 # first example
 def outer_function():
 

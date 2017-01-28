@@ -26,7 +26,7 @@ class Warrior(object):
         self.posy = posy +self.delta_position
 
     def position(self):
-        return '{} , {}' .format(self.posx,self.posy)
+        return '{} , {}' .format(self.posx, self.posy)
 
 # Second Example
 
@@ -103,6 +103,3 @@ if __name__ == "__main__":
     # to test staticmethod
     now = datetime.datetime.now()
     print(Monster.is_gameday(now))
-    
-    
-    

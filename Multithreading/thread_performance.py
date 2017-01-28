@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Simple study related to Multiprocessing
+Simple study related to threads performance
 
 """
 
@@ -14,6 +14,7 @@ counter = 0
 max_for = 100000000
 
 lock = threading.Lock()
+
 
 def add_numbers():
 

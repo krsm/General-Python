@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 """
+
 Simple study related do classes inheritance - creating subclasses
 
 """

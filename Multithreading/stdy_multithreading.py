@@ -25,7 +25,7 @@ def calculate_cube(numbers):
 
 array_numbers = [1, 2, 3, 4, 5, 6, 7]
 
- #creatings threads
+#creatings threads
 thr1 = threading.Thread(target=calculate_square, args=(array_numbers,))
 thr2 = threading.Thread(target=calculate_cube, args=(array_numbers,))
 

@@ -7,11 +7,12 @@ Simple study related do classes inheritance - creating subclasses
 
 # General Class
 
+
 class Warrior(object):
     
     # delta position - class variable
     delta_position = 10
-    #number of warriors
+    # number of warriors
     num_of_warriors = 0
     
     def __init__(self,posx,posy):
@@ -26,22 +27,21 @@ class Warrior(object):
         
     def position(self):
         return '{} , {}' .format(self.posx,self.posy)
-        
- # First Example
-       
+
+
+# First Example
 class Archer(Warrior):
     pass
-        
- # Second Example
+
+
+# Second Example
 class Horseman(Warrior):
     
     def __init__(self,posx,posy, attack):
-    # use the constructor of class Warrior use of super
+        # use the constructor of class Warrior use of super
         super().__init__(posx, posy)
         self.attack = attack
 
-        
-        
 
 if __name__ == "__main__":
     
@@ -49,7 +49,7 @@ if __name__ == "__main__":
     archer = Archer(100,10)
     print(archer.posx)
     # printing the Method resolution order
-    #print(help(archer))
+    # print(help(archer))
 
     """
     

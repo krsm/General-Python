@@ -15,6 +15,7 @@ It can return True to  suppress exceptions that occur with block.
 
 from contextlib import contextmanager
 
+
 # First Example
 class MyContextManager(object):
 

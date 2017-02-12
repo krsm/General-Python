@@ -24,7 +24,7 @@ class MyContextManager(object):
     def __init__(self):
         print("__init__")
 
-    #before stuff
+    # before stuff
     def __enter__(self):
         print("__enter__")
         return self
@@ -33,10 +33,10 @@ class MyContextManager(object):
         print(exc_type, value, traceback)
 
 
-
 # Second Example
 @contextmanager
 def file_open(path, mode = 'w'):
+
     try:
         file_obj = open(path, mode)
         yield file_obj
@@ -59,4 +59,4 @@ if __name__ == "__main__":
     with file_open('test.txt') as fo:
         content = fo.read()
 
-    print(content)
+        print(content)
